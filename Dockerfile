@@ -1,4 +1,4 @@
-FROM eladrosen/lamp:latest
+FROM eladrosen1980/lamp:latest
 MAINTAINER Fernando Mayo <fernando@tutum.co>, Feng Honglin <hfeng@tutum.co>
 
 # Install plugins
