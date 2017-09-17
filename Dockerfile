@@ -1,4 +1,4 @@
-FROM tutum/lamp:latest
+FROM eladrosen/lamp:latest
 MAINTAINER Fernando Mayo <fernando@tutum.co>, Feng Honglin <hfeng@tutum.co>
 
 # Install plugins
@@ -21,5 +21,5 @@ ADD create_db.sh /create_db.sh
 RUN chmod +x /*.sh
 
 
-EXPOSE 80 3306
+EXPOSE 22 80 3306
 CMD ["/run.sh"]
